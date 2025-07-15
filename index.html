@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -34,6 +33,23 @@
       text-align: center;
       margin-bottom: 40px;
     }
+    .buttons {
+      margin-top: 20px;
+    }
+    .button {
+      display: inline-block;
+      background: #e91e63;
+      color: #fff;
+      padding: 12px 24px;
+      margin: 10px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .button:hover {
+      background: #c2185b;
+    }
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -64,13 +80,17 @@
   <main>
     <section class="intro">
       <h2>Sobre</h2>
-      <p>Rivia Mara é maquiadora profissional especializada em noivas, formaturas e ocasiões especiais. Seu trabalho valoriza a beleza única de cada cliente, com técnicas modernas, produtos de alta qualidade e um atendimento personalizado. Siga no Instagram: <a href="https://instagram.com/riviamara_makeup" target="_blank">@riviamara_makeup</a></p>
+      <p>Rivia Mara é maquiadora profissional especializada em noivas, formaturas e ocasiões especiais. Seu trabalho valoriza a beleza única de cada cliente, com técnicas modernas, produtos de alta qualidade e um atendimento personalizado.</p>
+      <div class="buttons">
+        <a class="button" href="https://wa.me/5579999197619" target="_blank">Fale no WhatsApp</a>
+        <a class="button" href="https://www.instagram.com/riviamaraa?igsh=MWQxZWhxemFydGtyNQ==" target="_blank">Ver Instagram</a>
+      </div>
     </section>
 
     <section class="gallery">
-      <img src="imagens/makeup1.jpg" alt="Rivia maquiando uma cliente">
-      <img src="imagens/makeup2.jpg" alt="Noiva maquiada">
-      <img src="imagens/makeup3.jpg" alt="Mesa com produtos de maquiagem">
+      <img src="imagens/makeup1.jpg" alt="Rivia maquiando uma cliente" />
+      <img src="imagens/makeup2.jpg" alt="Noiva maquiada" />
+      <img src="imagens/makeup3.jpg" alt="Mesa com produtos de maquiagem" />
     </section>
   </main>
 
